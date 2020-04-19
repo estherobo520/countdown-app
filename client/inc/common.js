@@ -1,3 +1,4 @@
+
 var second = 1000,
       minute = second * 60,
       hour = minute * 60,
@@ -14,10 +15,12 @@ var countDown = new Date('Jun 25, 2020 00:00:00').getTime(),
         document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
         document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
 
-      if (distance < 0) {
-       clearInterval(x);
-       "Wedding Day!";
-      }
+      //do something later when date is reached
+      //animate celebration
+      //if (distance < 0) {
+      //  clearInterval(x);
+      //  'IT'S MY BIRTHDAY!;
+      //}
 
     }, second)
 
