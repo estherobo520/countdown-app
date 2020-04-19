@@ -1,7 +1,7 @@
 /*
  * Import the reset stylesheet first
  */
- @import url("reset.css");
+ @import url("inc/reset.css");
 
  html { 
    background: url(background.jpg) no-repeat center center fixed; 
