@@ -71,13 +71,13 @@
    color:navy;
    }
  
-  .row {
+  /* .row {
     white-space: nowrap;
   }
   .row > span {
     width: 300px;
     display: inline-block;
-  }
+  } */
    .dot {
    height: 100px;
    width: 100px;
