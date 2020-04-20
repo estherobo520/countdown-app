@@ -5,7 +5,8 @@
 
  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   html { 
-  background-image:url('inc/background.jpg');
+  /* background-image:url('inc/background.jpg'); */
+  background-color: lightpink;
   -webkit-background-size: 100%; 
   -moz-background-size: 100%; 
   -o-background-size: 100%; 
