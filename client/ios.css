@@ -15,9 +15,9 @@
     -o-background-size: calc(100vw) calc(100vh);
     background-size: calc(100vw) calc(100vh);
     }
-   .row{
+   /* .row{
      background-color: brown;
-   }
+   } */
  }
  
  html { 
