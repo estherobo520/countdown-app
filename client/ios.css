@@ -3,6 +3,13 @@
  */
  @import url("inc/reset.css");
 
+ @media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  #body_content {
+    width:100%;
+  }
+}
+
  html { 
    background: url(inc/background.jpg) no-repeat center center fixed; 
    -webkit-background-size: cover;
