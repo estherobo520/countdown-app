@@ -3,14 +3,12 @@
  */
  @import url("inc/reset.css");
 
- html, body {height: 100%;}
-
- /* @media only screen and (max-width:620px) {
-  #body_content {
+  @media only screen and (max-width:620px) {
+  html, body {
     width:100%;
     height: 100%;
   }
-} */
+} 
 
  html { 
    background: url(inc/background.jpg) no-repeat center center fixed; 
