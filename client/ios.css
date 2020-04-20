@@ -4,20 +4,19 @@
  @import url("inc/reset.css");
 
  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  html { 
-  /* background-image:url('inc/background.jpg'); */
-  background-color: lightpink;
-  -webkit-background-size: 100%; 
-  -moz-background-size: 100%; 
-  -o-background-size: 100%; 
-  background-size: 100%; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover;
-  }
+  body {
+    background: url(inc/background.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-attachment: fixed;
+    background-color: rgba(255, 182, 193, 0.877);
+    -webkit-background-size: calc(100vw) calc(100vh);
+    -moz-background-size: calc(100vw) calc(100vh);
+    -o-background-size: calc(100vw) calc(100vh);
+    background-size: calc(100vw) calc(100vh);
+    }
    .row{
-     background-color: yellow;
+     background-color: brown;
    }
  }
  
