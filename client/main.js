@@ -27,3 +27,4 @@ var countDown = new Date('Jun 24, 2020 18:00:00').getTime(),
       colorIncrementer: 0,
       colorThreshold: 10
   }
+
