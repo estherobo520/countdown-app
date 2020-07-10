@@ -97,3 +97,9 @@
    border-radius: 100px;
    display: inline-block;
    }
+   #married{
+	  color: bfa363;
+	  border-width: 5px;
+    border-color: navy;
+    border-style: solid;
+  }
