@@ -14,9 +14,9 @@ var countDown = new Date('Jun 24, 2020 18:00:00').getTime(),
         document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
         document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
 
-      if (distance < 0) {
-       document.getElementById("married").innerHTML="WE'RE MARRIED!!!";
-      }
+      // if (distance < 0) {
+      //  document.getElementById("married").innerHTML="WE'RE MARRIED!!!";
+      // }
 
     }, second)
 
